@@ -212,6 +212,26 @@ ul.social li.youtube:hover {
     background-position: -180px -62px;
 }
 
+.footerEnd{
+
+ position: absolute;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ padding: 1rem;
+ background-color: #fff;
+ color: #000;
+ text-align: center;
+ opacity: 0.3;
+}
+.footerEnd:hover{
+  opacity: 1;
+}
+.footerEnd a{
+  color: #e63b4d;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 568px) {
     #header {
         width: 100%;
