@@ -182,14 +182,15 @@ ul.social {
     //margin: 80px auto 0;
     height: 62px;
     display: -webkit-inline-box;
+    color: #ff6600
+    margin-top:20px;
 }
 
 ul.social li {
-    float: left;
     background: url(../images/social.png) left top no-repeat;
-    position: relative;
     height: 62px;
     margin-right: 28px;
+    background-color: #000;
 }
 
 ul.social li a {
