@@ -70,15 +70,16 @@ h6 {
 html,
 body {
     height: 100%;
-    background-color: #000;
+    //background-color: #000;
 }
 
 body {
     margin: 0;
     padding: 0;
-    color: #fff;
+    color: #000;
     text-align: center;
-    background: url(../images/bg.jpg) right bottom no-repeat;
+    //background: url(../images/bg.jpg) right bottom no-repeat;
+    background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -88,7 +89,7 @@ body {
 }
 
 .black {
-    background-color: rgba(0, 0, 0, 0.5);
+    //background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
     left: 0;
@@ -107,10 +108,14 @@ body {
     padding: 100px 0 100px 0;
     margin: auto;
 }
+img{
+  width: 50%;
+}
 
 h1 {
     font-family: 'Damion', cursive;
-    font-size: 103px;
+    font-size: 40px;
+    padding: 30px;
 }
 
 h2 {
@@ -139,9 +144,20 @@ h2 strong.sep-two {
 
 #middle {
     width: 100%;
-    background: #ffffff;
-    padding: 10px 0;
-    margin: 50px 0;
+    color: #000;
+}
+
+#middle a{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  letter-spacing: 4px;
+  text-align: center;
+  color: #e63b4d;
+  text-decoration: none;
+}
+
+#middle a:hover{
+text-decoration: underline;
 }
 
 #middle p {
@@ -150,10 +166,11 @@ h2 strong.sep-two {
     color: #000000;
     line-height: 34px;
     padding: 0 30%;
+    margin-bottom: 30px;
 }
 
 #middle p span {
-    color: #e63b4d;
+    //color: #e63b4d;
 }
 
 #footer {
@@ -219,16 +236,16 @@ ul.social li.youtube:hover {
  bottom: 0;
  left: 0;
  padding: 1rem;
- background-color: #fff;
  color: #000;
  text-align: center;
- opacity: 0.3;
+ font-size: 12px;
 }
-.footerEnd:hover{
-  opacity: 1;
+.footerEnd p{
+  padding: 10px;
 }
+
 .footerEnd a{
-  color: #e63b4d;
+  color: #000;
   text-decoration: none;
 }
 
@@ -256,7 +273,6 @@ ul.social li.youtube:hover {
         margin-top: 7px;
     }
     #middle {
-        margin: 50px 0 20px 0;
         width: 90%;
         padding: 5%;
     }
@@ -267,6 +283,6 @@ ul.social li.youtube:hover {
         padding: 0;
     }
     #middle p span {
-        color: #e63b4d;
+        //color: #e63b4d;
     }
 }
