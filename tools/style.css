@@ -105,7 +105,7 @@ body {
 
 #header {
     width: 100%;
-    padding: 100px 0 100px 0;
+    padding: 100px 0 50px 0;
     margin: auto;
 }
 img{
@@ -178,19 +178,17 @@ text-decoration: underline;
 }
 
 ul.social {
-    //width: 242px;
-    //margin: 80px auto 0;
+    margin-top:20px;
     height: 62px;
     display: -webkit-inline-box;
-    color: #ff6600
-    margin-top:20px;
+    color: #ff6600;
 }
 
 ul.social li {
     background: url(../images/social.png) left top no-repeat;
     height: 62px;
     margin-right: 28px;
-    background-color: #000;
+    background-color: #e63b4d;
 }
 
 ul.social li a {
@@ -231,8 +229,6 @@ ul.social li.youtube:hover {
 }
 
 .footerEnd{
-
- position: absolute;
  right: 0;
  bottom: 0;
  left: 0;
@@ -253,7 +249,7 @@ ul.social li.youtube:hover {
 @media screen and (max-width: 568px) {
     #header {
         width: 100%;
-        padding: 30px 0 30px 0;
+        padding: 30px 0px;
         margin: auto;
     }
     h1 {
