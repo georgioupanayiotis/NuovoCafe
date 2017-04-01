@@ -269,6 +269,12 @@ ul.social li.youtube:hover {
         margin-left: 10px;
         margin-top: 7px;
     }
+    ul.social {
+        margin-top:0px;
+    }
+    ul.social li {
+      margin-right: 0px;
+    }
     #middle {
         width: 90%;
         padding: 5%;
